@@ -1,0 +1,122 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Stylish", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #19528a;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    /* opacity: 0.8; */
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    /* opacity: 0.8; */
+}
+
+.icon a img {
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #19528a;
+    height: 81vh;
+}
+
+.hero-text h1 {
+    font-size: 70px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.btn {
+    padding: 15px 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.buy-btn {
+    background-color: #182a48;
+    color: white;
+}
+
+.buy-btn:hover {
+    background-color: #001234;
+}
+
+.find-btn {
+    background-color: transparent;
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.photo img {
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    margin-right: 45px;
+    border-radius: 30px;
+    transition: transform 0.5s ease;
+}
+
+.photo img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.page2 {
+    background-color: #19528a;
+    height: 100vh;
+}
